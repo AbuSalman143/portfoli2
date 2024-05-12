@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color:  #68768D;
+
+}
+body{
+    background-color: #111E41;
+    
+    
+}
+
+.main-container{
+   
+    padding: 75px 25px;
+    display: flex;
+    
+    
+    .left-container{
+       
+        
+        width: 35%;
+        padding: 20px 10px 20px 150px;
+        img{
+            border-radius: 20px;
+            width: 250px;
+        }
+        .left-card{
+          
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            position: fixed;
+            top: 50px;
+            left: 120px;
+        }
+        .profile{
+           
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+        .profile-container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+            h1{
+                font-size: 36px;
+                color: white;
+            }
+            p{
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            li{
+                list-style: none;
+                color: white;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .menu-list{
+                    height: 2px;
+                    width: 20px;
+                    background-color: white;
+                }
+            }
+            
+        }
+        .social-container{
+          
+            display: flex;
+            gap: 50px;
+            img{
+                width: 50px;
+            }
+        }
+    }
+    .right-container{
+      
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 130px 0  160px;
+        .about-section{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 18px;
+             /* padding: 0 150px; */
+
+            p{
+                text-align: justify;
+                color: #68768D;
+            }
+        }
+        .experince-card{
+          
+            display: flex;
+            gap: 20px;
+            padding: 50px 25px;
+
+            .timeperiode{
+              
+                width:400px;
+                text-decoration: underline;
+                
+            }
+            
+            .experince-detail{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                text-align: justify;
+                
+                h2{
+                    color: white;
+                }
+                .discription-text{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .skill-chips{
+                    
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+
+                    .chip{
+                        background-color: #122B39;
+                        padding: 5px 20px;
+                        border-radius: 10px;
+                        color: #5CE5D0;
+                    }
+                }
+            }
+        }
+        .experince-card:hover{
+            background-color: #1b344f4c;
+            border-radius: 25px;
+            box-shadow: 2px 2px  #1b344f4c;
+            h2{
+                color: #5CE5D0;
+            }
+        }
+        .resume{
+            font-size: 12px;
+            a{
+                font-weight: 900;
+                 color: white;
+            }
+        }
+        .project-card{
+         
+            display: flex;
+            gap:20px;
+            padding: 50px 25px;
+            /* align-items: center; */
+            img{
+                height: 100px;
+                border-radius: 10px;
+            }
+            .project-details{
+               
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h2{
+                    color: white;
+                }
+                .project-discription{
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: justify;
+                }
+                .project-chips{
+                    
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+
+                    .chip{
+                        background-color: #122B39;
+                        padding: 5px 20px;
+                        border-radius: 10px;
+                        color: #5CE5D0;
+                    }
+                }
+            }
+            
+        }
+        .project-card:hover{
+            background-color: #1b344f4c;
+            border-radius: 25px;
+            box-shadow: 2px 2px  #1b344f4c;
+            h2{
+                color: #5CE5D0;
+            }
+            img{
+                border: 2px solid gray;
+            }
+        }
+    }
+}
