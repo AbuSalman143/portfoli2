@@ -66,28 +66,3 @@ export default Experience;
 
 
 
-// return (
-    //             <div>
-    //                 {
-    //                     experiences.map((item,index)=>{
-    //                     return (
-    //                         <div className="experinxe-card">
-    //                             <span>{item.timePeriode}</span>
-    //                             <div>
-    //                                 <h2>{item.titel}</h2>
-    //                                 <p>{item.designation}</p>
-    //                                 <p className="discription-text">{item.discription}</p>
-    //                                 <div className="skill-chips">
-    //                                     {item.skills.map((skill,index)=>{
-    //                                         return (
-    //                                             <span key={index} className="chip">{skill}</span>
-    //                                         )
-    //                                     })}
-    //                                 </div>
-    //                             <div/>
-    //                         </div>
-    //                     )
-    //                 })}
-    //             </div>      
-
-    //         )
